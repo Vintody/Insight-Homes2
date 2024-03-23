@@ -1,0 +1,183 @@
+
+
+: {
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  
+  /* Navbar Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: gray;
+    overflow: hidden;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  .navbar a.logo img {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .navbar .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .navbar .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    margin: 0;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  @media screen and (max-width: 600px) {
+    .navbar a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .navbar a.logo {
+      display: block;
+      text-align: center;
+    }
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display:none;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .navbar.responsive .dropdown {float: none;}
+    .navbar.responsive .dropdown-content {position: relative;}
+    .navbar.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .navbar.responsive {
+      position: relative;
+    }
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: block;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .navbar.responsive .dropdown {
+      float: none;
+    }
+    .navbar.responsive .dropdown-content {
+      position: relative;
+    }
+    .navbar.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  /* Main Section Styles */
+  .main-section {
+    padding: 20px;
+  }
+  
+  .section-content {
+    max-width: 800px; /* Adjust width as needed */
+    margin: 0 auto;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .main-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .Masterplan{
+    text-align: center;
+  }
+  
+  /* Tambahkan CSS untuk mengatur tata letak */
+  .Marketing {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Marketing img {
+    margin-right: 10px; /* Sesuaikan jarak antara gambar dan teks */
+  }
+  
+  .footer {
+    background-color: #333; /* Sesuaikan dengan warna latar belakang yang diinginkan */
+    color: white; /* Sesuaikan dengan warna teks yang diinginkan */
+    text-align: center;
+    padding: 20px 0; /* Sesuaikan dengan padding yang diinginkan */
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
